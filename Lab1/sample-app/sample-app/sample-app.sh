@@ -1,21 +1,7 @@
 #!/bin/bash
 
-# Replace tempdir and its contents if it exists
-if [ -d "tempdir" ]; then
-    rm -rf tempdir
-fi
 mkdir tempdir
-
-# Replace tempdir/templates if it exists
-if [ -d "tempdir/templates" ]; then
-    rm -rf tempdir/templates
-fi
 mkdir tempdir/templates
-
-# Replace tempdir/static if it exists
-if [ -d "tempdir/static" ]; then
-    rm -rf tempdir/static
-fi
 mkdir tempdir/static
 
 
